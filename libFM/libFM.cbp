@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libFM" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="libFM" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="..\FileScan.cpp" />
+		<Unit filename="..\FileScan.h" />
+		<Unit filename="..\ImagePosition.cpp" />
+		<Unit filename="..\ImagePosition.h" />
+		<Unit filename="..\Matrix.cpp" />
+		<Unit filename="..\Matrix.h" />
+		<Unit filename="..\MatrixMN.cpp" />
+		<Unit filename="..\MatrixMN.h" />
+		<Unit filename="..\SpacePosition.cpp" />
+		<Unit filename="..\SpacePosition.h" />
+		<Unit filename="..\Vector.cpp" />
+		<Unit filename="..\Vector.h" />
+		<Unit filename="..\VectorN.cpp" />
+		<Unit filename="..\VectorN.h" />
+		<Unit filename="..\alg.h" />
+		<Unit filename="..\alg_eigen.cpp" />
+		<Unit filename="..\alg_lu.cpp" />
+		<Unit filename="..\alg_matutil.cpp" />
+		<Unit filename="..\alg_matutil.h" />
+		<Unit filename="..\defVM.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\statcomp.h" />
+		<Unit filename="..\tensor.cpp" />
+		<Unit filename="..\tensor.h" />
+		<Unit filename="..\tool.h" />
+		<Unit filename="..\transform.cpp" />
+		<Unit filename="..\transform.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
